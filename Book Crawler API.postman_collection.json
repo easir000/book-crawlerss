@@ -1,0 +1,207 @@
+{
+	"info": {
+		"_postman_id": "1ff52824-73ba-4379-b4e3-150fe8316061",
+		"name": "Book Crawler API",
+		"description": "RESTful API for books.toscrape.com data with authentication and change tracking.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16074301",
+		"_collection_link": "https://easir05.postman.co/workspace/ChalkrAI~bf130787-a025-4510-aac5-c2059c72cc99/collection/16074301-1ff52824-73ba-4379-b4e3-150fe8316061?action=share&source=collection_link&creator=16074301"
+	},
+	"item": [
+		{
+			"name": "GET /books (All Books)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-API-Key",
+						"value": "{{api_key}}"
+					}
+				],
+				"url": {
+					"raw": "{{base_url}}/books",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"books"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET /books (Filtered by Category)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-API-Key",
+						"value": "{{api_key}}"
+					}
+				],
+				"url": {
+					"raw": "{{base_url}}/books?category=Travel",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"books"
+					],
+					"query": [
+						{
+							"key": "category",
+							"value": "Travel"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET /books (Price Range + Sort)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-API-Key",
+						"value": "{{api_key}}"
+					}
+				],
+				"url": {
+					"raw": "{{base_url}}/books?min_price=20&max_price=50&sort_by=price",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"books"
+					],
+					"query": [
+						{
+							"key": "min_price",
+							"value": "20"
+						},
+						{
+							"key": "max_price",
+							"value": "50"
+						},
+						{
+							"key": "sort_by",
+							"value": "price"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET /books (Pagination)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-API-Key",
+						"value": "{{api_key}}"
+					}
+				],
+				"url": {
+					"raw": "{{base_url}}/books?page=2&size=10",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"books"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "2"
+						},
+						{
+							"key": "size",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET /books/{id}",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-API-Key",
+						"value": "{{api_key}}"
+					}
+				],
+				"url": {
+					"raw": "{{base_url}}/books/665d1a2b3c4d5e6f7a8b9c0d",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"books",
+						"665d1a2b3c4d5e6f7a8b9c0d"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET /changes",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-API-Key",
+						"value": "{{api_key}}"
+					}
+				],
+				"url": {
+					"raw": "{{base_url}}/changes",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"changes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET /books (Invalid API Key)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-API-Key",
+						"value": "invalid-key"
+					}
+				],
+				"url": {
+					"raw": "{{base_url}}/books",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"books"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "base_url",
+			"value": "http://localhost:8000"
+		},
+		{
+			"key": "api_key",
+			"value": "xT2fG9vLpQ8zRnK4mW7sY1aB3cE6hJ0u"
+		}
+	]
+}
