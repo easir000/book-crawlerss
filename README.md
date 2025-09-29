@@ -364,3 +364,15 @@ You should see books being saved without MongoDB connection errors.
 | Start MongoDB | `docker run ...` (or `docker-compose up -d`) |
 | Stop MongoDB | `docker stop mongo-book` (or `docker-compose down`) |
 | View Data | Use [MongoDB Compass](https://www.mongodb.com/products/compass) → connect to `mongodb://localhost:27017` |
+
+## 🚀 Summary of All Commands
+
+| Task | Command |
+|-----|--------|
+| **Setup** | `python -m venv myenv` → `pip install -r requirements.txt` |
+| **MongoDB** | `docker run -d --name mongo-book -p 27017:27017 -v mongo-book-data:/data/db mongo:6.0` |
+| **Crawler** | `python -m crawler.main` |
+| **One-Time Scheduler** | `python -m scheduler.tasks` |
+| **Daily Scheduler** | `python -m scheduler.main` |
+| **API Server** | `uvicorn app.api.main:app --reload --port 8000` |
+| **API Tests** | `pytest tests/test_api.py -v` |
