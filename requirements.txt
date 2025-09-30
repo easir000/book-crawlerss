@@ -13,3 +13,6 @@ motor>=3.3.0
 pytest
 apscheduler
 pytz
+fastapi
+uvicorn[standard]
+python-dotenv

@@ -1,18 +1,19 @@
+
 # 📘 Book Crawler Project
 
-A production-grade web crawling, monitoring, and API system for `https://books.toscrape.com`.
+A production-grade system to crawl, monitor, and serve data from [https://books.toscrape.com](https://books.toscrape.com).
 
-- **Part 1**: Async web crawler with MongoDB storage  
-- **Part 2**: Daily scheduler with change detection & reporting  
-- **Part 3**: Secure RESTful API with authentication & filtering  
+- ✅ Part 1: Async web crawler with MongoDB  
+- ✅ Part 2: Daily scheduler with change detection & reporting  
+- ✅ Part 3: Secure RESTful API with auth, filtering, and pagination  
 
 ---
 
 ## 🛠️ Requirements
 
-- **Python**: `>=3.10`
-- **MongoDB**: `>=5.0` (local or Docker)
-- **OS**: Windows, macOS, or Linux
+- Python: `>=3.10`
+- Docker: For MongoDB (recommended)
+- OS: Windows, macOS, or Linux
 
 ---
 
@@ -24,42 +25,38 @@ git clone https://github.com/your-username/book-crawler.git
 cd book-crawler
 
 
-### 2. Create a Virtual Environment
+### 2. Create & Activate Virtual Environment
 
 python -m venv myenv
 
 
-#### Activate it:
-- **Windows ()**:
-  
-  myenv\Scripts\Activate.ps1
-  
-- **macOS/Linux**:
-  
-  source myenv/bin/activate
-  
+#### Windows ():
+
+myenv\Scripts\Activate.ps1
+
+
+#### macOS/Linux:
+
+source myenv/bin/activate
+
 
 ### 3. Install Dependencies
 
 pip install -r requirements.txt
 
 
-> **Note**: If you modified `pyproject.toml`, also run:
-> 
-> pip install -e .
-> 
+> 💡 Optional: `pip install -e .` if you use `pyproject.toml`.
 
 ---
 
 ## ⚙️ Configuration
 
-### 1. Create `.env` File
-Copy the example and fill in your values:
+### 1. Create `.env`
 
 cp .env.example .env
 
 
-#### Example `.env`:
+#### Edit `.env`:
 env
 # MongoDB
 MONGODB_URL=mongodb://localhost:27017
@@ -72,241 +69,106 @@ CRAWL_CONCURRENCY=10
 API_KEY=xT2fG9vLpQ8zRnK4mW7sY1aB3cE6hJ0u
 
 
-> 🔐 **Keep `API_KEY` secret** — never commit it to Git.
+> 🔐 Never commit `.env` to Git!
 
 ---
 
-## 🗄️ MongoDB Setup
-
-### Option A: Run MongoDB via Docker (Recommended)
-
-docker run -d -p 27017:27017 --name mongo-book mongo
-
-
-### Option B: Install Locally
-Download from [MongoDB Community Server](https://www.mongodb.com/try/download/community)
+Below is the complete MongoDB schema design for your Book Crawler project, including both collections: `books` and `change_log`.
 
 ---
 
-## ▶️ Running the Project
+### 🗃️ Collection 1: `books`
 
-### ✅ Part 1: Run the Crawler (One-Time)
-Crawls all books and stores them in MongoDB.
+Stores the full, structured, and raw representation of each book.
 
+```json
+{
+  "_id": ObjectId("665d1a2b3c4d5e6f7a8b9c0d"),
+  "url": "https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html",
+  "title": "A Light in the Attic",
+  "description": "Some poetic description...",
+  "category": "Poetry",
+  "price_excl_tax": 39.99,
+  "price_incl_tax": 39.99,
+  "availability_raw": "In stock (22 available)",
+  "availability_count": 22,
+  "num_reviews": 0,
+  "image_url": "https://books.toscrape.com/media/cache/.../image.jpg",
+  "rating": 3,
+  "raw_html": "<!DOCTYPE html>...",
+  "crawled_at": ISODate("2024-06-01T10:00:00Z"),
+  "status": "success",
+  "fingerprint": "a1b2c3d4e5f67890..."  // SHA-256 hash of key fields
+}
+```
 
-python -m crawler.main
-
-
-> 💡 On first run, this takes **5–10 minutes** (1,000 books, 50 categories).  
-> Subsequent runs skip already-crawled categories (resumable).
-
----
-
-### 🕒 Part 2: Run the Scheduler
-
-#### A. One-Time Change Detection (Recommended for testing)
-
-python -m scheduler.tasks
-
-- Crawls all books
-- Detects new/updated records
-- Generates `reports/change_report_YYYY-MM-DD.json`
-- Logs alerts to `alerts.log`
-
-#### B. Start Daily Scheduler (Production)
-Runs automatically every day at **2:00 AM Bangladesh Time (BDT)**.
-
-
-python -m scheduler.main
-
-
-> 🌍 Timezone: `Asia/Dhaka` (UTC+6). Adjust in `scheduler/main.py` if needed.
+#### 🔑 Indexes
+- Unique Index: `{"url": 1}` → ensures no duplicates
+- Compound Index: `{"category": 1, "price_incl_tax": 1, "rating": 1}` → accelerates API queries
 
 ---
 
-### 🌐 Part 3: Start the API Server
+### 📝 Collection 2: `change_log`
 
+Tracks all detected changes (new books or field updates) with audit details.
 
-uvicorn app.api.main:app --reload --port 8000
-
-
-#### API Endpoints:
-| Endpoint | Description |
-|--------|------------|
-| `GET /books` | List books (filter, sort, paginate) |
-| `GET /books/{id}` | Get book by ID |
-| `GET /changes` | View recent changes (last 24h) |
-| `GET /health` | Health check |
-
-#### Authentication:
-- Include header: `X-API-Key: <your-api-key>`
-- Example with `curl`:
-  
-  curl -H "X-API-Key: xT2fG9vLpQ8zRnK4mW7sY1aB3cE6hJ0u" http://localhost:8000/books
-  
-
-#### Documentation:
-- Swagger UI: http://localhost:8000/docs
-- ReDoc: http://localhost:8000/redoc
-
----
-
-## 🧪 Testing
-
-### Run API Tests
-
-pytest tests/test_api.py -v
-
-
-### Expected Output:
-
-test_invalid_api_key PASSED
-test_books_endpoint PASSED
-
-
-> ✅ Ensure MongoDB is running and `.env` is configured before testing.
-
----
-
-## 📁 Project Structure
-
-book-crawler/
-├── .env.example
-├── requirements.txt
-├── README.md
-├── app/
-│   ├── models/          # Pydantic models (Book, BookResponse)
-│   └── api/             # FastAPI app & routes
-├── crawler/             # Async web crawler
-├── scheduler/           # Daily tasks & change detection
-├── reports/             # Auto-generated change reports
-├── alerts.log           # Significant change alerts
-└── tests/               # API tests
-
-
----
-
-## 📎 Deliverables Included
-
-- ✅ **Postman Collection**: `book-crawler-api.postman_collection.json`
-- ✅ **Sample MongoDB Document**:
-  json
-  {
-    "url": "https://books.toscrape.com/.../index.html",
+```json
+{
+  "_id": ObjectId("665d1b3c4d5e6f7a8b9c0e1f"),
+  "book_url": "https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html",
+  "change_type": "updated",  // or "new"
+  "detected_at": ISODate("2024-06-02T02:15:00Z"),
+  "changes": {
+    "price_incl_tax": {
+      "old": 39.99,
+      "new": 22.65
+    },
+    "availability_count": {
+      "old": 22,
+      "new": 15
+    }
+  },
+  "details": {
     "title": "A Light in the Attic",
-    "category": "Poetry",
-    "price_incl_tax": 51.77,
-    "rating": 3,
-    "raw_html": "<!DOCTYPE html>...",
-    "crawled_at": "2024-06-05T12:00:00Z",
-    "fingerprint": "a1b2c3d4..."
+    "category": "Poetry"
   }
-  
-- ✅ **Screenshots/Logs**: Run any command above to generate logs.
+}
+```
+
+> 💡 For `"change_type": "new"`, the `changes` field may be omitted or empty, and `details` contains initial book metadata.
+
+#### 🔑 Indexes
+- TTL Index (Optional): `{"detected_at": 1}` with expireAfterSeconds (e.g., 2592000 for 30 days)
+- Standard Index: `{"detected_at": -1}` → for efficient querying of recent changes
 
 ---
 
-## 🚀 Next Steps
+### ✅ Summary of Collections
 
-- Import the **Postman collection** to test all endpoints
-- View **daily reports** in `reports/`
-- Monitor **alerts** in `alerts.log`
-- Deploy API with **Nginx + Gunicorn** for production
+| Collection | Purpose | Key Fields |
+|----------|--------|-----------|
+| `books` | Primary storage of book data | `url`, `title`, `price_incl_tax`, `rating`, `raw_html`, `fingerprint` |
+| `change_log` | Audit trail of changes | `book_url`, `change_type`, `changes`, `detected_at` |
 
----
+This schema supports:
+- Deduplication (via `url` uniqueness)
+- Efficient querying (via compound indexes)
+- Change detection (via `fingerprint`)
+- Auditability (via `change_log`)
+- Fallback parsing (via `raw_html`)
 
+All requirements for Part 1 (Crawler) and Part 2 (Change Detection) are fully satisfied.
 
+## 🗄️ MongoDB Setup (via Docker)
 
-Certainly. Below is a **complete, production-ready Docker setup for MongoDB** tailored to your Book Crawler project.
-
----
-
-### ✅ Step-by-Step: Run MongoDB via Docker
-
-#### 1. **Install Docker**
-- **Windows**: Install [Docker Desktop](https://www.docker.com/products/docker-desktop/)
-- **macOS**: Install via Homebrew: `brew install --cask docker`
-- **Linux**: Follow [official instructions](https://docs.docker.com/engine/install/)
-
-Ensure Docker is running before proceeding.
-
----
-
-#### 2. **Create a Dedicated Docker Network (Optional but Recommended)**
-This isolates your services and enables clean networking.
-
-
-docker network create book-crawler-net
-
-
----
-
-#### 3. **Run MongoDB Container**
-
-
-docker run -d \
-  --name mongo-book \
-  --network book-crawler-net \
-  -p 27017:27017 \
-  -v mongo-book-/data/db \
-  -e MONGO_INITDB_ROOT_USERNAME=admin \
-  -e MONGO_INITDB_ROOT_PASSWORD=securepassword123 \
-  mongo:6.0
-
-
-> 💡 **Explanation**:
-> - `-d`: Run in detached mode (background)
-> - `--name mongo-book`: Container name (used in `.env`)
-> - `--network book-crawler-net`: Join custom network
-> - `-p 27017:27017`: Map host port to container
-> - `-v mongo-book-/data/db`: Persistent volume (data survives container restart)
-> - `-e ...`: Set admin credentials (optional for local dev, but good practice)
-
-> 🛑 **For local development only**, you can skip auth by omitting the `-e` lines.  
-> But if you include them, update your `.env` accordingly (see Step 4).
-
----
-
-#### 4. **Update Your `.env` File**
-
-##### Option A: **Without Authentication** (Simplest for local dev)
-env
+> ✅ No auth needed for local development.
+**
+ensure that this line is commented from .env file when running docker 
 MONGODB_URL=mongodb://localhost:27017
-MONGODB_DB_NAME=books_db
+**
 
-
-##### Option B: **With Authentication** (More secure)
-env
-MONGODB_URL=mongodb://admin:securepassword123@localhost:27017/books_db?authSource=admin
-MONGODB_DB_NAME=books_db
-
-
-> 🔐 If you used `-e MONGO_INITDB_ROOT_USERNAME` and `-e MONGO_INITDB_ROOT_PASSWORD`, use **Option B**.
-
----
-
-#### 5. **Verify MongoDB Is Running**
-
-
-# Check container status
-docker ps
-
-# Expected output:
-# CONTAINER ID   IMAGE       COMMAND                  ...   STATUS       PORTS                      NAMES
-# abc123         mongo:6.0   "docker-entrypoint.s…"   ...   Up 2 hours   0.0.0.0:27017->27017/tcp   mongo-book
-
-
-
-# Test connection (requires `mongosh`)
-docker exec -it mongo-book mongosh --eval "db.runCommand({ ping: 1 })"
-
-
----
-
-#### 6. **(Optional) Use `docker-compose.yml` for Simpler Management**
-
+### Option A: Use `docker-compose.yml` (Please use it)
 Create `docker-compose.yml` in your project root:
-
 yaml
 # docker-compose.yml
 version: '3.8'
@@ -319,9 +181,6 @@ services:
       - "27017:27017"
     volumes:
       - mongo-book-data:/data/db
-    environment:
-      MONGO_INITDB_ROOT_USERNAME: admin
-      MONGO_INITDB_ROOT_PASSWORD: securepassword123
     networks:
       - book-crawler-net
 
@@ -338,41 +197,299 @@ Then run:
 docker-compose up -d
 
 
-To stop:
-
-docker-compose down
-
-
-> ✅ This is the **most maintainable approach** for local development.
+> 📌 Data persists in Docker volume `mongo-book-data`.
 
 ---
 
-### 🧪 Final Test
-Run your crawler:
+## ▶️ Running the Project
+
+### ✅ Part 1: Run the Crawler (One-Time)
 
 python -m crawler.main
 
-
-You should see books being saved without MongoDB connection errors.
+> ⏱️ First run: 5–10 minutes (1,000 books).  
+> 🔁 Resumes from last category on failure.
 
 ---
 
-### 📌 Summary
+### 🕒 Part 2: Scheduler & Change Detection
 
-| Action | Command |
-|------|--------|
-| Start MongoDB | `docker run ...` (or `docker-compose up -d`) |
-| Stop MongoDB | `docker stop mongo-book` (or `docker-compose down`) |
-| View Data | Use [MongoDB Compass](https://www.mongodb.com/products/compass) → connect to `mongodb://localhost:27017` |
+#### A. One-Time Job (Testing)
+
+python -m scheduler.tasks
+
+- Detects new/updated books
+- Generates `reports/change_report_YYYY-MM-DD.json`
+- Logs alerts to `alerts.log`
+
+#### B. Daily Scheduler (Production)
+Runs every day at 2:00 AM :
+
+python -m scheduler.main
+
+
+---
+
+### 🌐 Part 3: Start the API Server
+
+uvicorn app.api.main:app --reload --port 8000
+
+
+#### Endpoints:
+| Endpoint | Description |
+|--------|------------|
+| `GET /books` | Filter, sort, paginate |
+| `GET /books/{id}` | Get book by ID |
+| `GET /changes` | Changes in last 24h |
+| `GET /health` | Health check |
+
+#### Authentication:
+
+curl -H "X-API-Key: xT2fG9vLpQ8zRnK4mW7sY1aB3cE6hJ0u" http://localhost:8000/books
+
+
+#### Documentation:
+- Swagger UI: http://localhost:8000/docs  
+- ReDoc: http://localhost:8000/redoc
+
+---
+
+## 🧪 Testing
+
+### Run API Tests
+
+pytest tests/test_api.py -v
+
+
+✅ Expected:
+
+test_invalid_api_key PASSED
+test_books_endpoint PASSED
+
+
+> 📌 Ensure MongoDB is running and `.env` is configured.
+
+---
+
+## 📁 Project Structure
+
+book-crawler/
+├── .env.example
+├── requirements.txt
+├── docker-compose.yml        # ← Docker setup
+├── README.md
+├── app/
+│   ├── models/               # Pydantic models
+│   └── api/                  # FastAPI
+├── crawler/                  # Async crawler
+├── scheduler/                # Daily tasks
+├── reports/                  # JSON change reports
+├── alerts.log                # Price drop alerts
+└── tests/                    # API tests
+
+
+---
+
+## 📎 Deliverables
+
+- ✅ Postman Collection: `book-crawler-api.postman_collection.json`
+- ✅ Sample MongoDB Document:
+  json
+  {
+    "url": "https://books.toscrape.com/.../index.html",
+    "title": "A Light in the Attic",
+    "category": "Poetry",
+    "price_incl_tax": 51.77,
+    "rating": 3,
+    "raw_html": "<!DOCTYPE html>...",
+    "crawled_at": "2024-06-05T12:00:00Z",
+    "fingerprint": "a1b2c3d4..."
+  }
+  
+- ✅ Logs: Generated by running any command
+
+---
+
+## 🐳 Docker-Only Deployment (Optional)
+
+To run everything in Docker (crawler, scheduler, API, MongoDB):
+
+1. Ensure you have `Dockerfile` and `docker-compose.yml` (see full setup in project docs)
+2. Build and start:
+   
+   docker-compose build
+   docker-compose up -d
+   
+3. Access API at `http://localhost:8000`
+
+---
 
 ## 🚀 Summary of All Commands
 
 | Task | Command |
 |-----|--------|
-| **Setup** | `python -m venv myenv` → `pip install -r requirements.txt` |
-| **MongoDB** | `docker run -d --name mongo-book -p 27017:27017 -v mongo-book-data:/data/db mongo:6.0` |
-| **Crawler** | `python -m crawler.main` |
-| **One-Time Scheduler** | `python -m scheduler.tasks` |
-| **Daily Scheduler** | `python -m scheduler.main` |
-| **API Server** | `uvicorn app.api.main:app --reload --port 8000` |
-| **API Tests** | `pytest tests/test_api.py -v` |
+| Setup | `python -m venv myenv` → `pip install -r requirements.txt` |
+| MongoDB | `docker run -d --name mongo-book -p 27017:27017 -v mongo-book-data:/data/db mongo:6.0` |
+| Crawler | `python -m crawler.main` |
+| One-Time Scheduler | `python -m scheduler.tasks` |
+| Daily Scheduler | `python -m scheduler.main` |
+| API Server | `uvicorn app.api.main:app --reload --port 8000` |
+| API Tests | `pytest tests/test_api.py -v` |
+| Docker Compose | `docker-compose up -d` |
+
+---
+
+> ✨ You’re ready to crawl, monitor, and serve!  
+> This project meets all requirements for a scalable, fault-tolerant, and production-ready web crawling system.
+
+Here is a complete, valid Postman Collection  for your Book Crawler API, ready to import into Postman for testing all endpoints with authentication, filtering, pagination, and error cases.
+
+---
+
+###  `book-crawler-api.postman_collection.`
+
+ "info": {
+    "name": "Book Crawler API",
+    "_postman_id": "book-crawler-api",
+    "description": "RESTful API for books.toscrape.com data with authentication and change tracking.",
+    "schema": "https://schema.getpostman.com//collection/v2.1.0/collection."
+  },
+  "item": [
+    {
+      "name": "GET /books (All Books)",
+      "request": {
+        "method": "GET",
+        "header": [
+          { "key": "X-API-Key", "value": "{{api_key}}" }
+        ],
+        "url": {
+          "raw": "{{base_url}}/books",
+          "host": ["{{base_url}}"],
+          "path": ["books"]
+        }
+      }
+    },
+    {
+      "name": "GET /books (Filtered by Category)",
+      "request": {
+        "method": "GET",
+        "header": [
+          { "key": "X-API-Key", "value": "{{api_key}}" }
+        ],
+        "url": {
+          "raw": "{{base_url}}/books?category=Travel",
+          "host": ["{{base_url}}"],
+          "path": ["books"],
+          "query": [{ "key": "category", "value": "Travel" }]
+        }
+      }
+    },
+    {
+      "name": "GET /books (Price Range + Sort)",
+      "request": {
+        "method": "GET",
+        "header": [
+          { "key": "X-API-Key", "value": "{{api_key}}" }
+        ],
+        "url": {
+          "raw": "{{base_url}}/books?min_price=20&max_price=50&sort_by=price",
+          "host": ["{{base_url}}"],
+          "path": ["books"],
+          "query": [
+            { "key": "min_price", "value": "20" },
+            { "key": "max_price", "value": "50" },
+            { "key": "sort_by", "value": "price" }
+          ]
+        }
+      }
+    },
+    {
+      "name": "GET /books (Pagination)",
+      "request": {
+        "method": "GET",
+        "header": [
+          { "key": "X-API-Key", "value": "{{api_key}}" }
+        ],
+        "url": {
+          "raw": "{{base_url}}/books?page=2&size=10",
+          "host": ["{{base_url}}"],
+          "path": ["books"],
+          "query": [
+            { "key": "page", "value": "2" },
+            { "key": "size", "value": "10" }
+          ]
+        }
+      }
+    },
+    {
+      "name": "GET /books/{id}",
+      "request": {
+        "method": "GET",
+        "header": [
+          { "key": "X-API-Key", "value": "{{api_key}}" }
+        ],
+        "url": {
+          "raw": "{{base_url}}/books/665d1a2b3c4d5e6f7a8b9c0d",
+          "host": ["{{base_url}}"],
+          "path": ["books", "665d1a2b3c4d5e6f7a8b9c0d"]
+        }
+      }
+    },
+    {
+      "name": "GET /changes",
+      "request": {
+        "method": "GET",
+        "header": [
+          { "key": "X-API-Key", "value": "{{api_key}}" }
+        ],
+        "url": {
+          "raw": "{{base_url}}/changes",
+          "host": ["{{base_url}}"],
+          "path": ["changes"]
+        }
+      }
+    },
+    {
+      "name": "GET /books (Invalid API Key)",
+      "request": {
+        "method": "GET",
+        "header": [
+          { "key": "X-API-Key", "value": "invalid-key" }
+        ],
+        "url": {
+          "raw": "{{base_url}}/books",
+          "host": ["{{base_url}}"],
+          "path": ["books"]
+        }
+      }
+    }
+  ],
+  "variable": [
+    { "key": "base_url", "value": "http://localhost:8000" },
+    { "key": "api_key", "value": "xT2fG9vLpQ8zRnK4mW7sY1aB3cE6hJ0u" }
+  ]
+}
+
+---
+
+###  How to Use
+1. Save the above as `book-crawler-api.postman_collection.`.
+2. In Postman:
+   - Click Import → Upload Files → Select the  file.
+3. The collection will appear with:
+   - All endpoints pre-configured
+   - Environment variables (`base_url`, `api_key`) editable in the collection settings
+4. Update `api_key` if yours differs (matches your `.env`).
+
+---
+
+### ✅ Test Coverage
+| Test Case | Purpose |
+|---------|--------|
+| All Books | Basic list retrieval |
+| Category Filter | Validate filtering |
+| Price + Sort | Test query params & sorting |
+| Pagination | Verify `page`/`size` |
+| Get by ID | Single book detail |
+| Changes | Recent updates |
+| Invalid Key | 403 error handling |

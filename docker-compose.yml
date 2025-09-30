@@ -1,0 +1,72 @@
+# docker-compose.yml
+version: '3.8'
+
+services:
+  mongodb:
+    image: mongo:6.0
+    container_name: mongo-book
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-book-data:/data/db
+    networks:
+      - book-crawler-net
+
+  crawler:
+    build: .
+    container_name: book-crawler
+    restart: "no"
+    depends_on:
+      - mongodb
+    environment:
+      - MONGODB_URL=mongodb://mongodb:27017
+      - MONGODB_DB_NAME=books_db
+      - CRAWL_CONCURRENCY=10
+      - API_KEY=${API_KEY}
+    command: python -m crawler.main
+    volumes:
+      - ./reports:/app/reports
+      - ./alerts.log:/app/alerts.log
+    networks:
+      - book-crawler-net
+
+  scheduler:
+    build: .
+    container_name: book-scheduler
+    restart: unless-stopped
+    depends_on:
+      - mongodb
+    environment:
+      - MONGODB_URL=mongodb://mongodb:27017
+      - MONGODB_DB_NAME=books_db
+      - CRAWL_CONCURRENCY=10
+      - API_KEY=${API_KEY}
+    command: python -m scheduler.main
+    volumes:
+      - ./reports:/app/reports
+      - ./alerts.log:/app/alerts.log
+    networks:
+      - book-crawler-net
+
+  api:
+    build: .
+    container_name: book-api
+    restart: unless-stopped
+    depends_on:
+      - mongodb
+    ports:
+      - "8000:8000"
+    environment:
+      - MONGODB_URL=mongodb://mongodb:27017
+      - MONGODB_DB_NAME=books_db
+      - API_KEY=${API_KEY}
+    networks:
+      - book-crawler-net
+
+volumes:
+  mongo-book-data:  # ← FIXED: no dash, proper mapping
+
+networks:
+  book-crawler-net:
+    driver: bridge
