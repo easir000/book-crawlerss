@@ -1,0 +1,3410 @@
+[{
+  "_id": {
+    "$oid": "68db91b349fc88fb4f0264f6"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/unicorn-tracks_951/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:47.989Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91b449fc88fb4f0264f7"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/crown-of-midnight-throne-of-glass-2_888/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:48.267Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91b449fc88fb4f0264f8"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/saga-volume-6-saga-collected-editions-6_924/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:48.281Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91b449fc88fb4f0264f9"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/throne-of-glass-throne-of-glass-1_868/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:48.298Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91b449fc88fb4f0264fa"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/a-court-of-thorns-and-roses-a-court-of-thorns-and-roses-1_874/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:48.309Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91b449fc88fb4f0264fb"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/masks-and-shadows_909/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:48.305Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91b449fc88fb4f0264fc"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-bane-chronicles-the-bane-chronicles-1-11_746/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:48.310Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91b449fc88fb4f0264fd"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-star-touched-queen_642/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:48.313Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91b449fc88fb4f0264fe"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/searching-for-meaning-in-gailana_648/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:48.317Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91b449fc88fb4f0264ff"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-star-touched-queen_764/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:48.321Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91b449fc88fb4f026500"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/demigods-magicians-percy-and-annabeth-meet-the-kanes-percy-jackson-kane-chronicles-crossover-1-3_685/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:48.322Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91b449fc88fb4f026501"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/avatar-the-last-airbender-smoke-and-shadow-part-3-smoke-and-shadow-3_881/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:48.326Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91b449fc88fb4f026502"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/princess-between-worlds-wide-awake-princess-5_919/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:48.327Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91b449fc88fb4f026503"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/a-shard-of-ice-the-black-symphony-saga-1_558/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:48.330Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91b449fc88fb4f026504"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/island-of-dragons-unwanteds-7_705/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:48.336Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91b449fc88fb4f026505"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/city-of-glass-the-mortal-instruments-3_678/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:48.339Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91b449fc88fb4f026506"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/kings-folly-the-kinsman-chronicles-1_473/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:48.341Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91b449fc88fb4f026507"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-hidden-oracle-the-trials-of-apollo-1_752/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:48.344Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91b449fc88fb4f026508"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-glittering-court-the-glittering-court-1_845/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:48.347Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91b449fc88fb4f026509"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/hollow-city-miss-peregrines-peculiar-children-2_813/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:48.349Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91b549fc88fb4f02650a"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/every-heart-a-doorway-every-heart-a-doorway-1_465/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:49.253Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91b549fc88fb4f02650b"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/tell-the-wind-and-fire_396/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:49.534Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91b549fc88fb4f02650c"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/a-gathering-of-shadows-shades-of-magic-2_456/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:49.536Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91b549fc88fb4f02650d"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-false-prince-the-ascendance-trilogy-1_402/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:49.557Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91b549fc88fb4f02650e"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-beast-black-dagger-brotherhood-14_342/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:49.561Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91b549fc88fb4f02650f"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-rose-the-dagger-the-wrath-and-the-dawn-2_278/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:49.565Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91b549fc88fb4f026510"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-demonists-demonist-1_345/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:49.574Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91b549fc88fb4f026511"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/darkfever-fever-1_145/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:49.582Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91b549fc88fb4f026512"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/eragon-the-inheritance-cycle-1_153/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:49.586Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91b549fc88fb4f026513"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/harry-potter-and-the-chamber-of-secrets-harry-potter-2_325/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:49.595Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91b549fc88fb4f026514"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/midnight-riot-peter-grant-rivers-of-london-books-1_194/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:49.597Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91b549fc88fb4f026515"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-raven-boys-the-raven-cycle-1_411/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:49.600Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91b549fc88fb4f026516"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/harry-potter-and-the-half-blood-prince-harry-potter-6_326/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:49.606Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91b549fc88fb4f026517"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/a-feast-for-crows-a-song-of-ice-and-fire-4_357/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:49.622Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91b549fc88fb4f026518"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/ash_123/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:49.614Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91b549fc88fb4f026519"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/a-storm-of-swords-a-song-of-ice-and-fire-3_116/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:49.633Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91b549fc88fb4f02651b"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/paper-and-fire-the-great-library-2_339/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:49.640Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91b549fc88fb4f02651a"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/harry-potter-and-the-order-of-the-phoenix-harry-potter-5_327/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:49.635Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91b549fc88fb4f02651c"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/heir-to-the-sky_166/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:49.630Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91b549fc88fb4f02651d"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/soldier-talon-3_222/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:49.625Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91b649fc88fb4f02651e"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/vampire-girl-vampire-girl-1_92/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:50.568Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91b649fc88fb4f02651f"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/shadow-rites-jane-yellowrock-10_51/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:50.824Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91b649fc88fb4f026520"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/sister-sable-the-mad-queen-1_54/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:50.835Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91b649fc88fb4f026521"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-mirror-the-maze-the-wrath-and-the-dawn-15_73/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:50.838Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91b649fc88fb4f026522"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-silent-twin-detective-jennifer-knight-3_82/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:50.849Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91b649fc88fb4f026523"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/one-second-seven-7_41/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:50.852Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91b649fc88fb4f026524"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/myriad-prentor-1_36/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:50.854Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91b649fc88fb4f026525"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/origins-alphas-05_42/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:50.859Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91b849fc88fb4f026526"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/without-borders-wanderlove-1_956/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:52.043Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91b849fc88fb4f026527"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/shameless_52/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:52.328Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91b849fc88fb4f026528"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-matchmakers-playbook-wingmen-inc-1_850/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:52.333Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91b849fc88fb4f026529"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-mistake-off-campus-2_851/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:52.339Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91b849fc88fb4f02652a"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/off-sides-off-1_38/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:52.349Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91b849fc88fb4f02652b"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-hook-up-game-on-1_68/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:52.353Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91b949fc88fb4f02652c"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-requiem-red_995/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:53.574Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91b949fc88fb4f02652d"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/burning_884/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:53.845Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91b949fc88fb4f02652e"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/nightingale-sing_823/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:53.867Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91b949fc88fb4f02652f"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/set-me-free_988/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:53.872Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91b949fc88fb4f026530"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/obsidian-lux-1_911/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:53.876Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91b949fc88fb4f026531"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/this-is-where-it-ends_771/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:53.882Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91b949fc88fb4f026532"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/scarlett-epstein-hates-it-here_828/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:53.889Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91b949fc88fb4f026533"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/wild-swans_782/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:53.899Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91b949fc88fb4f026534"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/aristotle-and-dante-discover-the-secrets-of-the-universe-aristotle-and-dante-discover-the-secrets-of-the-universe-1_663/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:53.903Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91b949fc88fb4f026535"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/a-fierce-and-subtle-poison_875/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:53.906Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91b949fc88fb4f026536"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-natural-history-of-us-the-fine-art-of-pretending-2_941/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:53.911Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91b949fc88fb4f026537"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/catching-jordan-hundred-oaks_673/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:53.916Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91b949fc88fb4f026538"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/my-kind-of-crazy_718/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:53.919Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91b949fc88fb4f026539"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/frostbite-vampire-academy-2_810/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:53.926Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91b949fc88fb4f02653a"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/until-friday-night-the-field-party-1_775/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:53.929Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91b949fc88fb4f02653b"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/dont-get-caught_687/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:53.936Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91b949fc88fb4f02653c"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-epidemic-the-program-06_636/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:53.941Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91b949fc88fb4f02653d"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/stars-above-the-lunar-chronicles-45_632/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:53.947Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91b949fc88fb4f02653e"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/library-of-souls-miss-peregrines-peculiar-children-3_816/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:53.955Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91b949fc88fb4f02653f"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-darkest-lie_747/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:53.960Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91ba49fc88fb4f026540"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/no-love-allowed-dodge-cove-1_625/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:54.895Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91bb49fc88fb4f026541"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/south-of-sunshine_544/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:55.183Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91bb49fc88fb4f026542"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/exit-pursued-by-a-bear_591/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:55.193Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91bb49fc88fb4f026543"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/nightstruck-a-novel_480/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:55.198Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91bb49fc88fb4f026544"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/dont-forget-steven_561/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:55.224Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91bb49fc88fb4f026545"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-darkest-corners_399/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:55.242Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91bb49fc88fb4f026546"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/future-shock-future-shock-1_519/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:55.249Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91bb49fc88fb4f026547"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/an-abundance-of-katherines_362/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:55.258Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91bb49fc88fb4f026548"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/kill-the-boy-band_381/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:55.267Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91bb49fc88fb4f026549"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/where-she-went-if-i-stay-2_417/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:55.276Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91bb49fc88fb4f02654a"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/isla-and-the-happily-ever-after-anna-and-the-french-kiss-3_380/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:55.286Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91bb49fc88fb4f02654b"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/my-life-next-door-my-life-next-door_535/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:55.284Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91bb49fc88fb4f02654c"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/two-summers_415/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:55.291Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91bb49fc88fb4f02654d"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-alien-club_569/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:55.298Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91bb49fc88fb4f02654e"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/walk-the-edge-thunder-road-2_300/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:55.303Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91bb49fc88fb4f02654f"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/lola-and-the-boy-next-door-anna-and-the-french-kiss-2_385/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:55.313Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91bb49fc88fb4f026550"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/tell-me-three-things_395/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:55.335Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91bb49fc88fb4f026551"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/harry-potter-and-the-prisoner-of-azkaban-harry-potter-3_328/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:55.331Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91bb49fc88fb4f026552"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/tell-the-wolves-im-home_439/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:55.341Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91bb49fc88fb4f026553"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/will-grayson-will-grayson-will-grayson-will-grayson_419/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:55.326Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91bc49fc88fb4f026554"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/two-boys-kissing_294/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:56.249Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91bc49fc88fb4f026555"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/legend-legend-1_184/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:56.528Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91bc49fc88fb4f026556"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/cinder-the-lunar-chronicles-1_139/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:56.535Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91bc49fc88fb4f026557"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-new-guy-and-other-senior-year-distractions_266/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:56.545Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91bc49fc88fb4f026558"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/scarlet-the-lunar-chronicles-2_218/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:56.551Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91bc49fc88fb4f026559"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-haters_67/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:56.558Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91bc49fc88fb4f02655a"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/golden-heart-of-dread-3_161/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:56.563Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91bc49fc88fb4f02655b"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-art-of-not-breathing_58/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:56.569Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91bc49fc88fb4f02655c"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/new-moon-twilight-2_105/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:56.573Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91bc49fc88fb4f02655d"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-land-of-10000-madonnas_258/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:56.576Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91bc49fc88fb4f02655e"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/annie-on-my-mind_120/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:56.580Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91bc49fc88fb4f02655f"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/lady-renegades-rebel-belle-3_181/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:56.586Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91bc49fc88fb4f026560"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/girl-online-on-tour-girl-online-2_101/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:56.592Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91bc49fc88fb4f026561"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/boy-meets-boy_134/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:56.600Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91bd49fc88fb4f026562"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-most-perfect-thing-inside-and-outside-a-birds-egg_938/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:57.808Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91be49fc88fb4f026563"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-fabric-of-the-cosmos-space-time-and-the-texture-of-reality_572/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:58.090Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91be49fc88fb4f026564"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-grand-design_405/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:58.099Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91be49fc88fb4f026565"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/immunity-how-elie-metchnikoff-changed-the-course-of-modern-medicine_900/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:58.104Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91be49fc88fb4f026566"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/tipping-point-for-planet-earth-how-close-are-we-to-the-edge_643/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:58.116Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91be49fc88fb4f026567"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/peak-secrets-from-the-new-science-of-expertise_389/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:58.121Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91be49fc88fb4f026568"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/seven-brief-lessons-on-physics_219/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:58.127Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91be49fc88fb4f026569"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-elegant-universe-superstrings-hidden-dimensions-and-the-quest-for-the-ultimate-theory_245/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:58.138Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91be49fc88fb4f02656a"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-disappearing-spoon-and-other-true-tales-of-madness-love-and-the-history-of-the-world-from-the-periodic-table-of-the-elements_244/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:58.144Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91be49fc88fb4f02656b"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/surely-youre-joking-mr-feynman-adventures-of-a-curious-character_227/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:58.162Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91be49fc88fb4f02656c"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-selfish-gene_81/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:58.160Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91be49fc88fb4f02656d"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-origin-of-species_499/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:58.151Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91be49fc88fb4f02656e"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/sorting-the-beef-from-the-bull-the-science-of-food-fraud-forensics_736/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:58.170Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91be49fc88fb4f02656f"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/diary-of-a-citizen-scientist-chasing-tiger-beetles-and-other-new-ways-of-engaging-the-world_517/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:58.167Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91bf49fc88fb4f026570"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:59.374Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91bf49fc88fb4f026571"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/you-cant-bury-them-all-poems_961/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:59.652Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91bf49fc88fb4f026572"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-black-maria_991/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:59.650Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91bf49fc88fb4f026573"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/olio_984/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:59.658Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91bf49fc88fb4f026574"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/poems-that-make-grown-women-cry_824/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:59.661Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91bf49fc88fb4f026575"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/out-of-print-city-lights-spotlight-no-14_536/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:59.676Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91bf49fc88fb4f026576"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/slow-states-of-collapse-poems_960/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:59.678Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91bf49fc88fb4f026577"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-crossover_398/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:59.680Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91bf49fc88fb4f026578"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-collected-poems-of-wb-yeats-the-collected-works-of-wb-yeats-1_441/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:59.684Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91bf49fc88fb4f026579"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/leave-this-song-behind-teen-poetry-at-its-best_474/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:59.687Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91bf49fc88fb4f02657a"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/shakespeares-sonnets_989/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:59.689Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91bf49fc88fb4f02657b"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/les-fleurs-du-mal_530/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:59.693Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91bf49fc88fb4f02657c"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/untitled-collection-sabbath-poems-2014_953/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:59.695Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91bf49fc88fb4f02657d"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/booked_365/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:59.699Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91bf49fc88fb4f02657e"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/twenty-love-poems-and-a-song-of-despair_91/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:59.702Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91bf49fc88fb4f02657f"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/quarter-life-poetry-poems-for-the-young-broke-and-hangry_727/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:59.706Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91bf49fc88fb4f026580"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/howl-and-other-poems_522/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:59.708Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91bf49fc88fb4f026581"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/salt_731/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:59.711Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91bf49fc88fb4f026582"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/night-sky-with-exit-wounds_822/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:15:59.714Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91c049fc88fb4f026583"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/vampire-knight-vol-1-vampire-knight-1_93/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:00.605Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91c149fc88fb4f026584"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/wall-and-piece_971/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:01.492Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91c149fc88fb4f026585"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-new-drawing-on-the-right-side-of-the-brain_550/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:01.771Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91c149fc88fb4f026586"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/history-of-beauty_521/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:01.774Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91c149fc88fb4f026587"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/feathers-displays-of-brilliant-plumage_695/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:01.777Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91c149fc88fb4f026588"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/ways-of-seeing_94/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:01.791Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91c149fc88fb4f026589"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/art-and-fear-observations-on-the-perils-and-rewards-of-artmaking_559/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:01.793Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91c149fc88fb4f02658a"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-story-of-art_500/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:01.796Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91c149fc88fb4f02658b"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-art-book_490/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:01.799Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91c249fc88fb4f02658c"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-lucifer-effect-understanding-how-good-people-turn-evil_758/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:02.973Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91c349fc88fb4f02658d"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/8-keys-to-mental-health-through-exercise_114/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:03.251Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91c349fc88fb4f02658e"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-golden-condom-and-other-essays-on-love-lost-and-found_637/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:03.254Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91c349fc88fb4f02658f"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/thinking-fast-and-slow_289/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:03.256Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91c349fc88fb4f026590"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/an-unquiet-mind-a-memoir-of-moods-and-madness_422/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:03.275Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91c349fc88fb4f026591"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/civilization-and-its-discontents_140/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:03.278Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91c349fc88fb4f026592"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/it-didnt-start-with-you-how-inherited-family-trauma-shapes-who-we-are-and-how-to-end-the-cycle_593/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:03.280Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91c449fc88fb4f026593"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-argonauts_837/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:04.469Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91c449fc88fb4f026594"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/running-with-scissors_215/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:04.742Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91c449fc88fb4f026595"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/approval-junkie-adventures-in-caring-too-much_363/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:04.746Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91c449fc88fb4f026596"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/life-without-a-recipe_188/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:04.749Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91c449fc88fb4f026597"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/m-train_598/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:04.760Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91c449fc88fb4f026598"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/me-talk-pretty-one-day_193/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:04.768Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91c449fc88fb4f026599"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/a-heartbreaking-work-of-staggering-genius_115/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:04.773Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91c449fc88fb4f02659a"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/lab-girl_595/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:04.776Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91c449fc88fb4f02659b"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/lust-wonder_191/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:04.780Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91c549fc88fb4f02659c"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/catastrophic-happiness-finding-joy-in-childhoods-messy-years_138/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:05.662Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91c649fc88fb4f02659d"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/fifty-shades-freed-fifty-shades-3_156/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:06.548Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91c749fc88fb4f02659e"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-long-haul-diary-of-a-wimpy-kid-9_757/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:07.446Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91c749fc88fb4f02659f"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/dress-your-family-in-corduroy-and-denim_562/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:07.721Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91c749fc88fb4f0265a0"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/old-school-diary-of-a-wimpy-kid-10_723/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:07.724Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91c749fc88fb4f0265a1"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/naked_197/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:07.737Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91c749fc88fb4f0265a2"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/i-know-what-im-doing-and-other-lies-i-tell-myself-dispatches-from-a-life-under-construction_704/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:07.743Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91c749fc88fb4f0265a3"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/hyperbole-and-a-half-unfortunate-situations-flawed-coping-mechanisms-mayhem-and-other-things-that-happened_702/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:07.750Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91c749fc88fb4f0265a4"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/when-you-are-engulfed-in-flames_303/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:07.757Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91c749fc88fb4f0265a5"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/toddlers-are-aholes-its-not-your-fault_503/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:07.755Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91c749fc88fb4f0265a6"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/lamb-the-gospel-according-to-biff-christs-childhood-pal_182/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:07.765Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91c849fc88fb4f0265a7"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/holidays-on-ice_167/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:08.317Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91c949fc88fb4f0265a8"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/security_925/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:09.790Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91ca49fc88fb4f0265a9"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/doctor-sleep-the-shining-2_686/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:10.067Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91ca49fc88fb4f0265aa"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/follow-you-home_809/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:10.069Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91ca49fc88fb4f0265ab"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/red-dragon-hannibal-lecter-1_390/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:10.073Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91ca49fc88fb4f0265ac"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/psycho-sanitarium-psycho-15_628/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:10.082Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91ca49fc88fb4f0265ad"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/misery_332/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:10.095Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91ca49fc88fb4f0265ae"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/pet-sematary_726/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:10.099Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91ca49fc88fb4f0265af"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/salems-lot_309/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:10.105Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91ca49fc88fb4f0265b0"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/can-you-keep-a-secret-fear-street-relaunch-4_614/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:10.109Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91ca49fc88fb4f0265b1"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/it_330/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:10.114Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91ca49fc88fb4f0265b2"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/needful-things_334/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:10.645Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91ca49fc88fb4f0265b3"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/night-shift-night-shift-1-20_335/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:10.661Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91ca49fc88fb4f0265b4"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/dracula-the-un-dead_370/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:10.667Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91ca49fc88fb4f0265b5"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-girl-with-all-the-gifts_250/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:10.691Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91ca49fc88fb4f0265b6"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/house-of-leaves_169/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:10.702Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91ca49fc88fb4f0265b7"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-loney_756/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:10.707Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91ca49fc88fb4f0265b8"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-stand_282/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:10.705Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91cc49fc88fb4f0265b9"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/sapiens-a-brief-history-of-humankind_996/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:12.179Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91cc49fc88fb4f0265ba"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/thomas-jefferson-and-the-tripoli-pirates-the-forgotten-war-that-changed-american-history_867/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:12.447Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91cc49fc88fb4f0265bb"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/1491-new-revelations-of-the-americas-before-columbus_650/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:12.455Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91cc49fc88fb4f0265bc"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/zealot-the-life-and-times-of-jesus-of-nazareth_785/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:12.465Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91cc49fc88fb4f0265bd"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/a-short-history-of-nearly-everything_457/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:12.470Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91cc49fc88fb4f0265be"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-rise-and-fall-of-the-third-reich-a-history-of-nazi-germany_454/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:12.473Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91cc49fc88fb4f0265bf"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/political-suicide-missteps-peccadilloes-bad-calls-backroom-hijinx-sordid-pasts-rotten-breaks-and-just-plain-dumb-mistakes-in-the-annals-of-american-politics_917/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:12.475Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91cc49fc88fb4f0265c0"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-age-of-genius-the-seventeenth-century-and-the-birth-of-the-modern-mind_929/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:12.476Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91cc49fc88fb4f0265c1"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/unbound-how-eight-technologies-made-us-human-transformed-society-and-brought-our-world-to-the-brink_950/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:12.478Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91cc49fc88fb4f0265c2"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/brilliant-beacons-a-history-of-the-american-lighthouse_515/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:12.489Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91cc49fc88fb4f0265c3"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/catherine-the-great-portrait-of-a-woman_424/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:12.494Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91cc49fc88fb4f0265c4"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/most-blessed-of-the-patriarchs-thomas-jefferson-and-the-empire-of-the-imagination_509/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:12.496Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91cc49fc88fb4f0265c5"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/a-distant-mirror-the-calamitous-14th-century_652/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:12.497Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91cc49fc88fb4f0265c6"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/house-of-lost-worlds-dinosaurs-dynasties-and-the-story-of-life-on-earth_170/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:12.505Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91cc49fc88fb4f0265c7"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-guns-of-august_254/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:12.509Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91cc49fc88fb4f0265c8"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-hiding-place_406/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:12.512Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91cc49fc88fb4f0265c9"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/americas-war-for-the-greater-middle-east-a-military-history_361/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:12.515Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91cd49fc88fb4f0265ca"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-mathews-men-seven-brothers-and-the-war-against-hitlers-u-boats_408/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:13.069Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91ce49fc88fb4f0265cb"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/foolproof-preserving-a-guide-to-small-batch-jams-jellies-pickles-condiments-and-more-a-foolproof-guide-to-making-small-batch-jams-jellies-pickles-condiments-and-more_978/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:14.547Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91ce49fc88fb4f0265cc"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/layered-baking-building-and-styling-spectacular-cakes_904/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:14.819Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91ce49fc88fb4f0265cd"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-cookies-cups-cookbook-125-sweet-savory-recipes-reminding-you-to-always-eat-dessert-first_841/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:14.828Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91ce49fc88fb4f0265ce"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-pioneer-woman-cooks-dinnertime-comfort-classics-freezer-food-16-minute-meals-and-other-delicious-ways-to-solve-supper_943/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:14.841Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91ce49fc88fb4f0265cf"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/mama-tried-traditional-italian-cooking-for-the-screwed-crude-vegan-and-tattooed_908/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:14.844Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91ce49fc88fb4f0265d0"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-moosewood-cookbook-recipes-from-moosewood-restaurant-ithaca-new-york_574/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:14.849Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91ce49fc88fb4f0265d1"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/barefoot-contessa-at-home-everyday-recipes-youll-make-over-and-over-again_666/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:14.852Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91ce49fc88fb4f0265d2"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/everyday-italian-125-simple-and-delicious-recipes_618/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:14.855Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91ce49fc88fb4f0265d3"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-love-and-lemons-cookbook-an-apple-to-zucchini-celebration-of-impromptu-cooking_849/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:14.860Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91ce49fc88fb4f0265d4"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/its-all-easy-healthy-delicious-weeknight-meals-in-under-30-minutes_706/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:14.865Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91ce49fc88fb4f0265d5"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/my-paris-kitchen-recipes-and-stories_910/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:14.869Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91ce49fc88fb4f0265d6"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/cravings-recipes-for-what-you-want-to-eat_589/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:14.873Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91ce49fc88fb4f0265d7"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-nerdy-nummies-cookbook-sweet-treats-for-the-geek-in-all-of-us_853/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:14.884Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91ce49fc88fb4f0265d8"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/my-kitchen-year-136-recipes-that-saved-my-life_646/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:14.890Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91ce49fc88fb4f0265d9"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/barefoot-contessa-back-to-basics_667/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:14.888Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91ce49fc88fb4f0265da"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/32-yolks_510/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:14.896Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91ce49fc88fb4f0265db"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/naturally-lean-125-nourishing-gluten-free-plant-based-recipes-all-under-300-calories_479/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:14.892Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91ce49fc88fb4f0265dc"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/a-la-mode-120-recipes-in-60-pairings-pies-tarts-cakes-crisps-and-more-topped-with-ice-cream-gelato-frozen-custard-and-more_611/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:14.903Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91cf49fc88fb4f0265dd"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-help-yourself-cookbook-for-kids-60-easy-plant-based-recipes-kids-can-make-to-stay-healthy-and-save-the-earth_751/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:15.445Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91cf49fc88fb4f0265de"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/deliciously-ella-every-day-quick-and-easy-recipes-for-gluten-free-snacks-packed-lunches-and-simple-meals_801/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:15.463Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91d049fc88fb4f0265df"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/how-to-cook-everything-vegetarian-simple-meatless-recipes-for-great-food-how-to-cook-everything_471/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:16.362Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91d049fc88fb4f0265e0"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/better-homes-and-gardens-new-cook-book_423/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:16.645Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91d049fc88fb4f0265e1"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-power-greens-cookbook-140-delicious-superfood-recipes_410/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:16.651Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91d049fc88fb4f0265e2"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-smitten-kitchen-cookbook_281/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:16.655Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91d049fc88fb4f0265e3"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/hungry-girl-clean-hungry-easy-all-natural-recipes-for-healthy-eating-in-the-real-world_171/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:16.660Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91d049fc88fb4f0265e4"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/how-to-be-a-domestic-goddess-baking-and-the-art-of-comfort-cooking_470/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:16.666Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91d049fc88fb4f0265e5"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/mexican-today-new-and-rediscovered-recipes-for-contemporary-kitchens_387/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:16.672Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91d049fc88fb4f0265e6"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-art-of-simple-food-notes-lessons-and-recipes-from-a-delicious-revolution_229/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:16.675Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91d049fc88fb4f0265e7"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/vegan-vegetarian-omnivore-dinner-for-everyone-at-the-table_297/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:16.680Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91d049fc88fb4f0265e8"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-barefoot-contessa-cookbook_440/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:16.684Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91d149fc88fb4f0265e9"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/redeeming-love_826/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:17.879Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91d249fc88fb4f0265ea"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/counted-with-the-stars-out-from-egypt-1_463/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:18.157Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91d249fc88fb4f0265eb"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/if-i-run-if-i-run-1_174/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:18.159Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91d249fc88fb4f0265ec"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/shadows-of-the-past-logan-point-1_541/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:18.164Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91d249fc88fb4f0265ed"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/close-to-you_798/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:18.172Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91d249fc88fb4f0265ee"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/like-never-before-walker-family-2_476/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:18.174Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91d349fc88fb4f0265ef"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-dirty-little-secrets-of-getting-your-dream-job_994/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:19.365Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91d349fc88fb4f0265f0"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/shoe-dog-a-memoir-by-the-creator-of-nike_831/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:19.646Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91d349fc88fb4f0265f1"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/born-for-this-how-to-find-the-work-you-were-meant-to-do_588/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:19.649Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91d349fc88fb4f0265f2"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-third-wave-an-entrepreneurs-vision-of-the-future_862/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:19.659Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91d349fc88fb4f0265f3"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-lean-startup-how-todays-entrepreneurs-use-continuous-innovation-to-create-radically-successful-businesses_260/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:19.663Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91d349fc88fb4f0265f4"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/made-to-stick-why-some-ideas-survive-and-others-die_715/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:19.668Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91d349fc88fb4f0265f5"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/rich-dad-poor-dad_483/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:19.671Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91d349fc88fb4f0265f6"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/quench-your-own-thirst-business-lessons-learned-over-a-beer-or-two_629/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:19.677Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91d349fc88fb4f0265f7"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-art-of-startup-fundraising_606/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:19.679Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91d349fc88fb4f0265f8"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-10-entrepreneur-live-your-startup-dream-without-quitting-your-day-job_836/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:19.684Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91d349fc88fb4f0265f9"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-e-myth-revisited-why-most-small-businesses-dont-work-and-what-to-do-about-it_545/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:19.689Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91d349fc88fb4f0265fa"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/rework_212/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:19.692Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91d449fc88fb4f0265fb"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/louisa-the-extraordinary-life-of-mrs-adams_818/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:20.893Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91d549fc88fb4f0265fc"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/benjamin-franklin-an-american-life_460/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:21.176Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91d549fc88fb4f0265fd"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-faith-of-christopher-hitchens-the-restless-soul-of-the-worlds-most-notorious-atheist_495/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:21.199Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91d549fc88fb4f0265fe"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-rise-of-theodore-roosevelt-theodore-roosevelt-1_276/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:21.206Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91d549fc88fb4f0265ff"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/setting-the-world-on-fire-the-brief-astonishing-life-of-st-catherine-of-siena_603/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:21.209Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91d649fc88fb4f026600"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/in-her-wake_980/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:22.400Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91d649fc88fb4f026601"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/you-you-1_784/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:22.679Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91d649fc88fb4f026602"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/killing-floor-jack-reacher-1_382/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:22.685Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91d649fc88fb4f026603"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-travelers_285/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:22.693Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91d649fc88fb4f026604"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/far-from-true-promise-falls-trilogy-2_320/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:22.696Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91d649fc88fb4f026605"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-elephant-tree_968/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:22.700Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91d649fc88fb4f026606"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-14th-colony-cotton-malone-11_744/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:22.704Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91d649fc88fb4f026607"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-guilty-will-robie-4_750/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:22.708Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91d649fc88fb4f026608"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/give-it-back_430/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:22.713Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91d649fc88fb4f026609"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/behind-closed-doors_962/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:22.716Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91d649fc88fb4f02660a"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-bone-hunters-lexy-vaughan-steven-macaulay-2_343/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:22.725Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91d749fc88fb4f02660b"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/when-we-collided_955/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:23.652Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91d749fc88fb4f02660c"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/we-are-all-completely-beside-ourselves_301/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:23.913Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91d749fc88fb4f02660d"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/someone-like-you-the-harrisons-2_735/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:23.920Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91d949fc88fb4f02660e"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-four-agreements-a-practical-guide-to-personal-freedom_970/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:25.105Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91d949fc88fb4f02660f"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-activists-tao-te-ching-ancient-advice-for-a-modern-revolution_928/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:25.404Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91d949fc88fb4f026611"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/a-new-earth-awakening-to-your-lifes-purpose_311/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:25.416Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91d949fc88fb4f026610"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/unreasonable-hope-finding-faith-in-the-god-who-brings-purpose-to-your-pain_505/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:25.411Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91d949fc88fb4f026612"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/if-i-gave-you-gods-phone-number-searching-for-spirituality-in-america_564/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:25.422Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91d949fc88fb4f026613"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/chasing-heaven-what-dying-taught-me-about-living_797/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:25.427Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91da49fc88fb4f026614"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/logan-kade-fallen-crest-high-55_384/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:26.316Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91db49fc88fb4f026615"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/online-marketing-for-busy-authors-a-step-by-step-guide_913/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:27.202Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91db49fc88fb4f026616"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/you-are-a-badass-how-to-stop-doubting-your-greatness-and-start-living-an-awesome-life_508/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:27.479Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91db49fc88fb4f026617"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/how-to-be-miserable-40-strategies-you-already-use_897/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:27.485Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91db49fc88fb4f026618"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/how-to-stop-worrying-and-start-living_431/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:27.498Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91db49fc88fb4f026619"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/overload-how-to-unplug-unwind-and-unleash-yourself-from-the-pressure-of-stress_725/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:27.500Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91dc49fc88fb4f02661a"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/all-the-light-we-cannot-see_660/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:28.685Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91dc49fc88fb4f02661b"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-girl-you-left-behind-the-girl-you-left-behind-1_443/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:28.960Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91de49fc88fb4f02661c"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/unqualified-how-god-uses-broken-people-to-do-big-things_873/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:30.129Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91de49fc88fb4f02661d"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/blue-like-jazz-nonreligious-thoughts-on-christian-spirituality_461/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:30.402Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91de49fc88fb4f02661e"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/crazy-love-overwhelmed-by-a-relentless-god_682/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:30.424Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91df49fc88fb4f02661f"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/silence-in-the-dark-logan-point-4_542/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:31.599Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91e049fc88fb4f026620"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-grownup_546/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:32.481Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91e149fc88fb4f026621"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/suzie-snowflake-one-beautiful-flake-a-self-esteem-story_568/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:33.381Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91e249fc88fb4f026622"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-bulletproof-diet-lose-up-to-a-pound-a-day-reclaim-energy-and-focus-upgrade-your-life_931/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:34.270Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91e249fc88fb4f026623"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/10-day-green-smoothie-cleanse-lose-up-to-15-pounds-in-10-days_581/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:34.543Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91e249fc88fb4f026624"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/eat-fat-get-thin_688/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:34.553Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91e349fc88fb4f026625"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-art-and-science-of-low-carbohydrate-living_570/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:35.160Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91e449fc88fb4f026626"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/libertarianism-for-beginners_982/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:36.328Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91e449fc88fb4f026627"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/equal-is-unfair-americas-misguided-fight-against-income-inequality_617/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:36.621Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91e449fc88fb4f026628"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/why-the-right-went-wrong-conservatism-from-goldwater-to-the-tea-party-and-beyond_781/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:36.625Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91e549fc88fb4f026629"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/amid-the-chaos_788/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:37.795Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91e649fc88fb4f02662a"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/dark-notes_800/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:38.677Z"
+  },
+  "changes": {}
+},
+{
+  "_id": {
+    "$oid": "68db91e749fc88fb4f02662b"
+  },
+  "book_url": "https://books.toscrape.com/catalogue/the-long-shadow-of-small-ghosts-murder-and-memory-in-an-american-city_848/index.html",
+  "change_type": "updated",
+  "detected_at": {
+    "$date": "2025-09-30T08:16:39.560Z"
+  },
+  "changes": {}
+}]
