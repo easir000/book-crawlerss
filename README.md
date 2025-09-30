@@ -247,13 +247,6 @@ uvicorn app.api.main:app --reload --port 8000
 
 curl -H "X-API-Key: xT2fG9vLpQ8zRnK4mW7sY1aB3cE6hJ0u" http://localhost:8000/books
 
-
-#### Documentation:
-- Swagger UI: http://localhost:8000/docs  
-- ReDoc: http://localhost:8000/redoc
-
----
-
 ## 🧪 Testing
 
 ### Run API Tests
