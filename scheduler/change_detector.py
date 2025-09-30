@@ -40,5 +40,19 @@ async def detect_and_log_changes(current_book: dict):
             "details": {"title": current_book["title"]}
         })
     elif existing.get("fingerprint") != current_book["fingerprint"]:
+        # Updated book
         await db.books.replace_one({"url": current_book["url"]}, current_book)
-        # ... (rest of change detection logic using current_book)
+        # Log specific field changes (simplified)
+        changes = {}
+        for field in ["price_incl_tax", "availability_count", "rating"]:
+            if existing.get(field) != current_book[field]:
+                changes[field] = {
+                    "old": existing.get(field),
+                    "new": current_book[field]
+                }
+        await db.change_log.insert_one({
+            "book_url": current_book["url"],
+            "change_type": "updated",
+            "detected_at": current_book["crawled_at"],
+            "changes": changes
+        })
