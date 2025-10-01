@@ -251,10 +251,8 @@ curl -H "X-API-Key: xT2fG9vLpQ8zRnK4mW7sY1aB3cE6hJ0l" http://localhost:8000/book
 
 ### Run API Tests
 
-pytest tests/test_api.py -v
-pytest tests/test_crawler.py -v
-pytest tests/test_change_detection.py -v
-pytest tests/test_api.py::test_books_pagination -v
+| `pytest tests/test_api.py -v` | `pytest tests/test_crawler.py -v` | `pytest tests/test_change_detection.py -v` | ` pytest tests/test_api.py::test_books_pagination -v ` |
+| Docker Compose | `docker-compose up -d` |
 
 ✅ Expected:
 
