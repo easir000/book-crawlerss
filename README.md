@@ -327,7 +327,11 @@ To run everything in Docker (crawler, scheduler, API, MongoDB):
 | One-Time Scheduler | `python -m scheduler.tasks` |
 | Daily Scheduler | `python -m scheduler.main` |
 | API Server | `uvicorn app.api.main:app --reload --port 8000` |
-| API Tests | `pytest tests/test_api.py -v` | `pytest tests/test_crawler.py -v` | `pytest tests/test_change_detection.py -v` | ` pytest tests/test_api.py::test_books_pagination -v ` |
+| API Tests | `pytest tests/test_api.py -v` |
+      | `pytest tests/test_crawler.py -v` |
+      |`pytest tests/test_crawler.py -v` |
+      | `pytest tests/test_change_detection.py -v` | 
+      | ` pytest tests/test_api.py::test_books_pagination -v ` |
 | Docker Compose | `docker-compose up -d` |
 
 ---
