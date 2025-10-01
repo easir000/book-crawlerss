@@ -3,7 +3,6 @@ from pydantic import BaseModel, Field, field_validator
 from typing import Optional
 from datetime import datetime
 
-# === Model used during crawling (stored in DB) ===
 class Book(BaseModel):
     url: str
     title: str
@@ -15,7 +14,7 @@ class Book(BaseModel):
     availability_count: int
     num_reviews: int
     image_url: str
-    rating: int = Field(ge=1, le=5)
+    rating: int = Field(ge=0, le=5)  # ← Allow 0 for unknown ratings
     raw_html: str
     crawled_at: datetime
     status: str = "success"
@@ -25,9 +24,9 @@ class Book(BaseModel):
         if isinstance(v, int):
             return v
         if isinstance(v, str):
-            word = v.split()[-1] if v else "Zero"
+            word = v.split()[-1] if v.strip() else "Zero"
             mapping = {"One": 1, "Two": 2, "Three": 3, "Four": 4, "Five": 5}
-            return mapping.get(word, 0)
+            return mapping.get(word, 0)  # Returns 0 for invalid
         return 0
 
 

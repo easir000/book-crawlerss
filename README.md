@@ -252,7 +252,9 @@ curl -H "X-API-Key: xT2fG9vLpQ8zRnK4mW7sY1aB3cE6hJ0l" http://localhost:8000/book
 ### Run API Tests
 
 pytest tests/test_api.py -v
-
+pytest tests/test_crawler.py -v
+pytest tests/test_change_detection.py -v
+pytest tests/test_api.py::test_books_pagination -v
 
 ✅ Expected:
 
@@ -327,7 +329,7 @@ To run everything in Docker (crawler, scheduler, API, MongoDB):
 | One-Time Scheduler | `python -m scheduler.tasks` |
 | Daily Scheduler | `python -m scheduler.main` |
 | API Server | `uvicorn app.api.main:app --reload --port 8000` |
-| API Tests | `pytest tests/test_api.py -v` |
+| API Tests | `pytest tests/test_api.py -v` | `pytest tests/test_crawler.py -v` | `pytest tests/test_change_detection.py -v` | ` pytest tests/test_api.py::test_books_pagination -v ` |
 | Docker Compose | `docker-compose up -d` |
 
 ---
