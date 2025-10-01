@@ -245,7 +245,7 @@ uvicorn app.api.main:app --reload --port 8000
 
 #### Authentication:
 
-curl -H "X-API-Key: xT2fG9vLpQ8zRnK4mW7sY1aB3cE6hJ0l" http://localhost:8000/books
+curl -H "X-API-Key: xT2fG9vLpQ8zRnK4mW7sY1aB3cE6hJ0" http://localhost:8000/books
 
 ## 🧪 Testing
 
@@ -463,7 +463,7 @@ Here is a complete, valid Postman Collection  for your Book Crawler API, ready t
   ],
   "variable": [
     { "key": "base_url", "value": "http://localhost:8000" },
-    { "key": "api_key", "value": "xT2fG9vLpQ8zRnK4mW7sY1aB3cE6hJ0l" }
+    { "key": "api_key", "value": "xT2fG9vLpQ8zRnK4mW7sY1aB3cE6hJ0" }
   ]
 }
 

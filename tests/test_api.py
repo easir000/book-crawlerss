@@ -2,7 +2,7 @@ from fastapi.testclient import TestClient
 from app.api.main import app
 from app.models.book import BookResponse
 
-API_KEY = "xT2fG9vLpQ8zRnK4mW7sY1aB3cE6hJ0l"
+API_KEY = "xT2fG9vLpQ8zRnK4mW7sY1aB3cE6hJ0"
 
 def test_invalid_api_key():
     client = TestClient(app)
